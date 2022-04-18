@@ -50,3 +50,44 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.score h1 {
+  color: #565468;
+}
+
+.score p {
+  color: #2a45c2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+}
+
+.hands {
+  background-image: url("../img/triangle.png");
+  background-repeat: no-repeat;
+  width: 476px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  background-position: center;
+}
+
+.scissors {
+  margin-left: 20px;
+}
+
+.paper {
+  margin-right: 20px;
+}
+
+.hands .hand {
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.hands .hand:hover {
+  transform: translate3d(0px, -8px, 0px);
+}
