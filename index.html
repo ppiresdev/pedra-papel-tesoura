@@ -23,13 +23,41 @@
       </section>
       <section class="hands">
         <div class="hand paper">
-          <img src="./img/Paper.png" alt="Paper" />
+          <img
+            src="./img/Paper.png"
+            alt="Paper"
+            onclick="pickUserHand('paper')"
+          />
         </div>
         <div class="hand scissors">
-          <img src="./img/Scissors.png" alt="Scissors" />
+          <img
+            src="./img/Scissors.png"
+            alt="Scissors"
+            onclick="pickUserHand('scissor')"
+          />
         </div>
         <div class="hand rock">
-          <img src="./img/Rock.png" alt="Rock" />
+          <img src="./img/Rock.png" alt="Rock" onclick="pickUserHand('rock')" />
+        </div>
+      </section>
+      <section class="contest">
+        <div class="userhand">
+          <h1>YOU PICKED</h1>
+          <div class="handImageContainer">
+            <img src="./img/Paper.png" />
+          </div>
+        </div>
+        <div class="referee">
+          <div class="decision">
+            <h1>YOU WIN</h1>
+          </div>
+          <div class="newGame">PLAY AGAIN</div>
+        </div>
+        <div class="computerhand">
+          <h1>THE HOUSE PICKED</h1>
+          <div class="handImageContainer">
+            <img src="./img/Scissors.png" />
+          </div>
         </div>
       </section>
     </main>
